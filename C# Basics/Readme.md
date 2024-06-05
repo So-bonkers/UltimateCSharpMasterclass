@@ -37,4 +37,4 @@
     ### Assembly
         - An assembly is a container for related namespaces. Physically, its a file on the disk which can either be an executable or a DLL which stands for Dynamically Linked Library
 
-    So when you compile an application the compiler builds one or more assemblies depending on how you partition your code.
+So when you compile an application the compiler builds one or more assemblies depending on how you partition your code.
