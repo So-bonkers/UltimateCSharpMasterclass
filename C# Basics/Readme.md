@@ -13,28 +13,28 @@
 
 ## Application
 
-    - Class is a container that has some attributes:
-        - Data
-        - Methods
-    - Eg: If Car is a class then you have
-        - Data:
-            - Make
-            - Model
-            - Color
-        - Methods:
-            - Start()
-            - Move()
-        etc.
-    - As the number of classes in an application grows, we need a way to organize these classes.That's where we use a **namespace**.
+- Class is a container that has some attributes:
+    - Data
+    - Methods
+- Eg: If Car is a class then you have
+    - Data:
+        - Make
+        - Model
+        - Color
+    - Methods:
+        - Start()
+        - Move()
+    etc.
+- As the number of classes in an application grows, we need a way to organize these classes.That's where we use a **namespace**.
 
-    ### Namespace
-        - Namespace is a container for related classes. For example, in .NET framework we have namespaces containing tens of related classes. 
-        - We have namespaces for working with data like databases
-        - We also have namespaces for working with graphics and images, for working with security etc.
+### Namespace
+    - Namespace is a container for related classes. For example, in .NET framework we have namespaces containing tens of related classes. 
+    - We have namespaces for working with data like databases
+    - We also have namespaces for working with graphics and images, for working with security etc.
 
-    In the real world, as these namespaces grow, we need a different way of partitioning an application. That's where we use an Assembly (DLL or EXE).
+In the real world, as these namespaces grow, we need a different way of partitioning an application. That's where we use an Assembly (DLL or EXE).
 
-    ### Assembly
-        - An assembly is a container for related namespaces. Physically, its a file on the disk which can either be an executable or a DLL which stands for Dynamically Linked Library
+### Assembly
+    - An assembly is a container for related namespaces. Physically, its a file on the disk which can either be an executable or a DLL which stands for Dynamically Linked Library
 
 So when you compile an application the compiler builds one or more assemblies depending on how you partition your code.
